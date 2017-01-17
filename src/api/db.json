@@ -1,0 +1,19 @@
+{
+    "promotions": [
+        {
+            "_id": "2312E34245324h228868",
+            "productName": "Blue EverBlue Model 1200EX",
+            "productCode": "GDN-0011",
+            "category": "electronique",
+            "releaseDate": "Tue Jan 16 2017 08:00:00 GMT+0100",
+            "endDate":"Tue Jan 29 2017 23:59:59 GMT+0100",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare eleifend sollicitudin. Etiam ut ultrices diam, eu tincidunt velit. Praesent sed est vitae lectus pellentesque dictum. Etiam posuere id dui nec fringilla. Praesent sed aliquam velit. Donec pellentesque egestas arcu, a maximus dui auctor in. Nam metus sapien, vehicula id turpis sed, tempus blandit tortor. Nam elementum at sapien eu volutpat. Fusce condimentum accumsan arcu, vel ullamcorper lectus pretium et. Aenean vehicula vitae lorem vel molestie. Sed id ipsum ornare, cursus nulla ac, interdum nisi. Nulla vitae ex massa. Quisque maximus purus eget ante blandit tempor. Curabitur non tincidunt sem, at mattis nibh. Cras vitae efficitur massa. Aliquam orci neque, venenatis at augue et, pretium finibus arcu. ",
+            "priceBase": 100.00,
+            "contributor": ["2312E34245324h228868", "2312E34245324h228868"],
+            "discount": 40,
+            "minContributor": 10,
+            "gallery":["http://www.blueeverblue.com/images/model_1200EX_1.png", "http://www.blueeverblue.com/images/model_1200EX_2.png"],
+            "thumbnail": "http://www.blueeverblue.com/images/model_1200EX_1.png"
+        }   
+    ]
+}
