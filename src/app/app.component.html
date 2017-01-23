@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+
+
+<a routerLink="/">ici test</a>
+<a routerLink="/promotion">promotion module test</a>
+<a [routerLink]="['/promotion', {outlets: {promotion: ['categoryComponent']}}]">dsdasds</a>
+<router-outlet></router-outlet>
