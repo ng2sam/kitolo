@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PromotionComponent } from './promotion.component';
 import { PromotionListComponent } from './promotion-list/promotion-list.component';
+import { PromotionDetailComponent } from './promotion-detail/promotion-detail.component';
 import { CategoryComponent } from './category/category.component';
 
 const routes: Routes = [
@@ -14,8 +15,12 @@ const routes: Routes = [
     component: CategoryComponent,
   },
   {
-    path: ':category',
+    path: 'category/:category',
     component: PromotionListComponent
+  },
+  {
+    path: ':id',
+    component: PromotionDetailComponent
   }
 ];
 

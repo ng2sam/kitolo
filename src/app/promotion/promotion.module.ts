@@ -4,6 +4,7 @@ import { PromotionRoutingModule } from './promotion-routing.module';
 import { PromotionComponent } from './promotion.component';
 import { PromotionListComponent } from './promotion-list/promotion-list.component';
 import { CategoryComponent } from './category/category.component';
+import { PromotionDetailComponent } from './promotion-detail/promotion-detail.component';
 
 @NgModule({
   imports: [
@@ -13,12 +14,14 @@ import { CategoryComponent } from './category/category.component';
   declarations: [
     PromotionComponent,
     PromotionListComponent,
-    CategoryComponent
+    CategoryComponent,
+    PromotionDetailComponent
   ],
   exports: [
     PromotionComponent,
     PromotionListComponent,
-    CategoryComponent
+    CategoryComponent,
+    PromotionDetailComponent
     ]
 })
 export class PromotionModule { }
