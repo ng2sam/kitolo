@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node ./server/server.js",
-    "postinstall": "ng build --aot -prod",
+    "postinstall": "ng build -prod",
     "api": "json-server --watch ./src/api/db.json",
     "ngserve": "ng serve",
     "startWithApi": "concurrently \"npm run ngserve\" \"npm run api\" ",
