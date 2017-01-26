@@ -8,7 +8,7 @@
     "npm": "3.10.8"
   },
   "scripts": {
-    "start": "node ./server/server.js",
+    "start": "node ./src/server/server.js",
     "postinstall": "ng build --aot -prod",
     "api": "json-server --watch ./src/api/db.json",
     "ngserve": "ng serve",
