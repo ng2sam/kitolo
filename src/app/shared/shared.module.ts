@@ -1,16 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PromotionService } from './services';
-import { HeaderComponent } from './components';
-import { CollapseModule } from 'ng2-bootstrap/collapse';
+
 
 @NgModule({
   imports: [
-    CommonModule,
-    CollapseModule.forRoot()
+    CommonModule
   ],
   providers: [PromotionService],
-  declarations: [HeaderComponent],
-  exports:[HeaderComponent]
+  declarations: [],
+  exports:[]
 })
 export class SharedModule { }

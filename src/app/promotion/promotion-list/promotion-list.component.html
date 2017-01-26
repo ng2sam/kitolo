@@ -66,10 +66,10 @@
   <!-- Container Starts -->
   <div class="container">
     <!-- Row Starts -->
-    <div class="row-fluid">
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" *ngFor="let p of promotions | async; let i = index" (click)="onSelect.emit(p)">
-        <!-- Blog Item Starts -->
-        <div class="clearfix" *ngIf="i % 3 == 0" ></div>
+    <div class="row">
+      <div class="col col-lg-4 col-md-4 col-sm-12 col-xs-12" *ngFor="let p of promotions | async; let i = index" (click)="onSelect.emit(p)">
+        <!-- Blog Item Starts 
+        <div class="clearfix" *ngIf="i % 3 == 0" ></div>-->
         <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s" style="margin-bottom:20px;">
           <div class="blog-item-img">
             <a href="#">
