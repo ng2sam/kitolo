@@ -4,8 +4,9 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "start": "concurrently \"npm run ngserve\" \"npm run api\" ",
+   // "start": "concurrently \"npm run ngserve\" \"npm run api\" ",
     "ngserve": "ng serve",
+    "start": "ng serve",
     "api": "json-server --watch ./src/api/db.json",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
