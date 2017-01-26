@@ -4,10 +4,11 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
+    "start": "node server.js",
+    "postinstall": "ng build --aot -prod",
+    "api": "json-server --watch ./src/api/db.json",
     "ngserve": "ng serve",
     "startWithApi": "concurrently \"npm run ngserve\" \"npm run api\" ",
-    "start": "ng serve",
-    "api": "json-server --watch ./src/api/db.json",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
