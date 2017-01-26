@@ -9,7 +9,7 @@ import { IPromotion, Promotion } from '../model';
 
 @Injectable()
 export class PromotionService {
-    private _promotionUrl = '../../../api/promotion.json';
+    private _promotionUrl = 'https://kitolo.herokuapp.com/promotions';
 
     constructor(private _http: Http) {}
 
