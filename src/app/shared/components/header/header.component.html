@@ -53,17 +53,20 @@
          [collapse]="isMenuCollapsed">
          <a class="navbar-brand" href="#">Hidden brand</a>
       <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-        <li routerLink="/home" routerLinkActive="active" class="nav-item active" (click)="isMenuCollapsed = true"><a
-          class="pointer" i18n="Home menu label">Home</a>
+        <li routerLink="/" routerLinkActive="active" class="nav-item active" (click)="isMenuCollapsed = true"><a
+          class="pointer" i18n="Home menu label">Accueil</a>
         </li>
-        <li class="nav-item" routerLink="/scenes" routerLinkActive="active" (click)="isMenuCollapsed = true"><a class="pointer"
-                                                                                               i18n="Scenes menu label">Scenes</a>
+        <li class="nav-item" routerLink="/promotion" routerLinkActive="active" (click)="isMenuCollapsed = true"><a class="pointer"
+                                                                                               i18n="Scenes menu label">promotion</a>
         </li>
-        <li routerLink="/plugins" routerLinkActive="active" (click)="isMenuCollapsed = true"><a class="pointer"
-                                                                                                i18n="Plugins menu label">Plugins</a>
+        <li routerLink="/promtion/nom-article" routerLinkActive="active" (click)="isMenuCollapsed = true"><a class="pointer"
+                                                                                                i18n="Plugins menu label">detail article</a>
         </li>
-        <li routerLink="/shop" routerLinkActive="active" (click)="isMenuCollapsed = true"><a class="pointer"
-                                                                                             i18n="Shop menu label">Shop</a>
+        <li routerLink="/category" routerLinkActive="active" (click)="isMenuCollapsed = true"><a class="pointer"
+                                                                                             i18n="Shop menu label">categorie</a>
+        </li>
+        <li routerLink="/category/vetements" routerLinkActive="active" (click)="isMenuCollapsed = true"><a class="pointer"
+                                                                                             i18n="Shop menu label">categorie-vetements</a>
         </li>
       </ul>
       
